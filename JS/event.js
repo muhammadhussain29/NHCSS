@@ -31,6 +31,22 @@ let eventData = [
     time: '2:00 PM',
     location: 'Conference Hall',
     bgImg: "url('.imgs/poster.jpg')"
+  },
+  {
+    heading: 'Event 5',
+    speaker: 'Speaker 5',
+    date: '25-June-2023',
+    time: '2:00 PM',
+    location: 'Conference Hall',
+    bgImg: "url('.imgs/poster.jpg')"
+  },
+  {
+    heading: 'Event 6',
+    speaker: 'Speaker 6',
+    date: '25-June-2023',
+    time: '2:00 PM',
+    location: 'Conference Hall',
+    bgImg: "url('.imgs/poster.jpg')"
   }
 ];
 
