@@ -6,7 +6,7 @@ let eventData = [
     date: '21-June-2023',
     time: '11:00 PM',
     location: 'Numl Auditorium',
-    bgImg: "url('./imgs/poster.jpg')"
+    bgImg: "url('.imgs/poster.jpg')"
   },
   {
     heading: 'Event 2',
@@ -14,7 +14,7 @@ let eventData = [
     date: '25-June-2023',
     time: '2:00 PM',
     location: 'Conference Hall',
-    bgImg: "url('./imgs/poster.jpg')"
+    bgImg: "url('.imgs/poster.jpg')"
   },
   {
     heading: 'Event 3',
@@ -22,7 +22,7 @@ let eventData = [
     date: '25-June-2023',
     time: '2:00 PM',
     location: 'Conference Hall',
-    bgImg: "url('./imgs/poster.jpg')"
+    bgImg: "url('.imgs/poster.jpg')"
   },
   {
     heading: 'Event 4',
@@ -30,7 +30,7 @@ let eventData = [
     date: '25-June-2023',
     time: '2:00 PM',
     location: 'Conference Hall',
-    bgImg: "url('./imgs/poster.jpg')"
+    bgImg: "url('.imgs/poster.jpg')"
   },
   {
     heading: 'Event 5',
@@ -38,7 +38,7 @@ let eventData = [
     date: '25-June-2023',
     time: '2:00 PM',
     location: 'Conference Hall',
-    bgImg: "url('.\imgs\poster.jpg')"
+    bgImg: "url('.imgs/poster.jpg')"
   },
   {
     heading: 'Event 6',
@@ -46,7 +46,7 @@ let eventData = [
     date: '25-June-2023',
     time: '2:00 PM',
     location: 'Conference Hall',
-    bgImg: "url('.\imgs\poster.jpg')"
+    bgImg: "url('.imgs/poster.jpg')"
   }
 ];
 
