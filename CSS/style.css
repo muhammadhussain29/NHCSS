@@ -1,0 +1,193 @@
+/* Hero Section ------------------------------------------------------------------------------------------------------------ */
+.img-container img {
+    border-radius: 5px;
+    margin: 5px;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow: 0px 0px 8px black;
+    transition: 0.5s;
+    width: calc(100% - 200px);
+    height: 220px;
+}
+
+.img-container img:nth-child(2) {
+    width: calc(100% - 100px);
+}
+
+.img-container img:hover {
+    transform: translateX(-40px);
+    box-shadow: 0px 0px 16px black;
+}
+
+/* Hero Section CSS End ----------------------------------------------------------------------------------------------- */
+
+/* About Section CSS Start -------------------------------------------------------------------------------------------- */
+.about-shadow {
+    box-shadow: 0px 0px 8px black;
+    overflow: hidden;
+    border-radius: 8px;
+    border: none;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i {
+    font-size: 2rem;
+}
+
+/* About Section CSS End -------------------------------------------------------------------------------------------- */
+
+/* Gallery Section CSS Start ---------------------------------------------------------------------------------------- */
+.gallery-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+
+.gallery-container img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.gallery-container>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gallery-container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container .wide {
+    grid-column: span 2;
+}
+
+.gallery-container .tall {
+    grid-row: span 2;
+}
+
+/* Gallery Section CSS End ------------------------------------------------------------------------------------------- */
+
+/* Team Section CSS Start -------------------------------------------------------------------------------------------- */
+.section-team .header-section {
+    margin-bottom: 50px;
+}
+
+.section-team .single-person {
+    border-radius: 5px;
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.section-team .single-person:hover .person-image {
+    transform: scale(1.1);
+}
+
+.section-team .single-person .person-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-info .full-name {
+    color: var(--col-logo);
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--col-txt);
+    transition: 0.5s;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+    transform: scale(1.25);
+}
+
+/* Team Section CSS End ---------------------------------------------------------------------------------------------- */
+
+/* Contact Section Start --------------------------------------------------------------------------------------------- */
+.contact {
+    height: 360px;
+}
+
+.contact-box {
+    height: 420px;
+    background-color: white;
+    box-shadow: 1px 1px 8px black;
+    position: relative;
+    top: -30px;
+}
+
+.contact-box form input,
+.contact-box form textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 15px;
+}
+
+.contact-box form input:focus,
+.contact-box form textarea:focus {
+    outline: none;
+}
+
+.icon-circle {
+    border-radius: 50%;
+    background-color: white;
+    margin: 7px 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.icon-circle a i {
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    padding: 12px;
+}
+
+.icon-circle:hover {
+    transform: scale(1.25);
+}
+
+@media screen and (max-width: 767px) {
+    .contact {
+        height: auto;
+    }
+
+    .contact-box {
+        position: static;
+        margin: 8px;
+        max-width: calc(100% - 16px);
+    }
+}
+
+/* Contact Section End ----------------------------------------------------------------------------------------------- */

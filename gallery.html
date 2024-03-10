@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NHCSS | Gallery</title>
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Css For Animate on Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Special css file for image opening on full screen -->
+  <link rel="stylesheet" href="CSS/lightbox.css">
+  <!-- General for all -->
+  <link rel="stylesheet" href="CSS/general.css">
+  <!-- Gallery css -->
+  <link rel="stylesheet" href="CSS/gallery.css">
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader">
+      <span style="--i:1"></span>
+      <span style="--i:2"></span>
+      <span style="--i:3"></span>
+      <span style="--i:4"></span>
+      <span style="--i:5"></span>
+      <span style="--i:6"></span>
+      <span style="--i:7"></span>
+      <span style="--i:8"></span>
+      <span style="--i:9"></span>
+      <span style="--i:10"></span>
+      <span style="--i:11"></span>
+      <span style="--i:12"></span>
+      <span style="--i:13"></span>
+      <span style="--i:14"></span>
+      <span style="--i:15"></span>
+      <span style="--i:16"></span>
+      <span style="--i:17"></span>
+      <span style="--i:18"></span>
+      <span style="--i:19"></span>
+      <span style="--i:20"></span>
+    </div>
+  </div>
+  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=eO9dZaSZTfylT86n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=eO9dZaSZTfylT86n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=eO9dZaSZTfylT86n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=eO9dZaSZTfylT86n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=eO9dZaSZTfylT86n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>v<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=eO9dZaSZTfylT86n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=eO9dZaSZTfylT86n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=eO9dZaSZTfylT86n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+  <!-- navbar ----------------------------------------------------------------------------------------------------------------->
+  <nav class="navbar navbar-expand-md bgcol-white ">
+    <div class="container">
+      <!-- logo image wraped in a tag to make it work like a link to index page -->
+      <a class="nav-logo" href="index.html">
+        <img src="/imgs/logo-dark.png" alt="NHCSS" height="70">
+      </a>
+      <!-- Button visible for small screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Nav links -->
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="nav-list d-flex flex-column flex-md-row justify-content-end">
+          <li><a class="nav-list-item d-block px-3 px-md-auto py-1" href="index.html">Home</a></li>
+          <hr class="d-md-none d-block">
+          <li><a class="nav-list-item d-block px-3 px-md-auto py-1" href="team.html">Team</a></li>
+          <hr class="d-md-none d-block">
+          <li><a class="nav-list-item d-block px-3 px-md-auto py-1" href="gallery.html">Gallery</a></li>
+          <hr class="d-md-none d-block">
+          <li><a class="nav-list-item d-block px-3 px-md-auto py-1" href="event.html">Events</a></li>
+          <hr class="d-md-none d-block">
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Gallery -->
+
+  <!-- Top Section -->
+  <section class="hero-section container py-5">
+    <div class="row">
+      <!-- Left side -->
+      <div class="col-lg-6 py-5 text-center text-lg-start" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-easing="ease-out">
+        <h1 class="hero-heading col-blue pt-5">Crafting Memories, Preserving Beauty</h1>
+        <div class="line mx-lg-1 mx-auto"></div>
+        <p class="txt-1 my-2">Step Into Our World of Wonder: Where Every Image Tells a Story</p>
+      </div>
+      <!-- right side -->
+      <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center .flex-wrap" data-aos="fade"
+        data-aos-delay="500" data-aos-duration="2000" data-aos-easing="ease">
+        <!-- Empty boxes hold images -->
+        <div class="img-box"></div>
+        <div class="img-box"></div>
+        <div class="img-box"></div>
+        <div class="img-box"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Main Gallery ------------------------------------------------------------------------------------------------------------------>
+  <section class="container text-center pt-5">
+
+    <!-- heading and line -->
+    <h2 class="heading-1 col-blue">Exploring Beauty, Frame by Frame</h2>
+    <div class="line my-3 mx-auto"></div>
+
+    <!-- Gallery Wraper -->
+    <div class="gallery" id="gallery">
+      <!--------------------------------- images generated dynamically using javascript --------------------------------------------->
+    </div>
+
+    <!-- Initially Displayed button -->
+    <button class="btn px-5 py-2 my-3" id="gallery-btn">load more</button>
+    <!-- Displayed After all images are on Screen to go back to only initial images  -->
+    <button class="btn px-5 py-2 my-3 hide" id="gallery-btn-less">show less</button>
+
+  </section>
+
+  <!-- Footer ----------------------------------------------------------------------------------------------------------------------->
+  <footer class="footer">
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="txt-1">@copyrights 2023</div>
+        </div>
+        <div class="col-md-6 text-md-end ">
+          <div class="txt-1">Privacy Policy | Terms and Conditions</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Js for gallery only -->
+  <script src="JS/gallery.js"></script>
+  <!-- Special JS for image Opening and stuff -->
+  <script src="JS/lightbox-plus-jquery.js"></script>
+  <!-- Bootstrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- Js Files for Animate on Scroll -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script type="text/javascript">
+    AOS.init();
+  </script>
+  <!-- Script for preloader -->
+  <script>
+    let loader = document.getElementsByClassName('preloader')[0];
+    window.addEventListener('load', () => {
+      loader.style.display = "none";
+    })
+  </script>
+</body>
+
+</html>

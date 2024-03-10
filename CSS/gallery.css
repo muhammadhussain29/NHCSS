@@ -1,0 +1,77 @@
+/* top right images css */
+.img-box {
+    width: 100px;
+    height: 400px;
+    margin: 0px 10px;
+    border-radius: 50px;
+    background-image: url(../imgs/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s 0.1s;
+}
+
+.img-box:nth-child(2) {
+    background-image: url(../imgs/img-2.jpg);
+}
+
+.img-box:nth-child(3) {
+    background-image: url(../imgs/img-3.jpg);
+}
+
+.img-box:nth-child(4) {
+    background-image: url(../imgs/img-4.jpg);
+}
+
+.img-box:hover {
+    width: calc(100% - 150px);
+}
+
+/* top right images css Responsiveness */
+@media screen and (max-width: 992px) {
+    .img-box {
+        height: 100px;
+        width: 100px;
+    }
+
+    .img-box:hover {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Main gallery */
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.gallery>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery>a>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+
+.gallery .wide {
+    grid-column: span 2;
+}
+
+.gallery .tall {
+    grid-row: span 2;
+}
