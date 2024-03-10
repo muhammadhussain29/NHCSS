@@ -1,78 +1,100 @@
 // Data of society member
 const data = [
     {
-        "img": "../imgs/profile.jpg",
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }, {
-        "img": "../imgs/profile.jpg",
+    },
+    {
+        "img": "imgs/profile.jpg",
         "name": "member",
         "Role": "Role"
-    }
+    },
+    {
+        "img": "imgs/profile.jpg",
+        "name": "member",
+        "Role": "Role"
+    },
 ]
 
 let grid = document.getElementsByClassName('grid')[0];
