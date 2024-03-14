@@ -1,4 +1,7 @@
 /* Square class holds image, name and rank for President and Vise-President */
+body{
+    overflow-x: hidden;
+}
 .square {
     position: relative;
     width: 300px;
@@ -81,4 +84,13 @@
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+}
+@media screen and (max-width: 767px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+        grid-gap: 20px;
+    }
+    .grid .heading-2{
+        font-size: 1.1rem;
+    }
 }
