@@ -141,6 +141,7 @@
     box-shadow: 1px 1px 8px black;
     position: relative;
     top: -30px;
+    display: block;
 }
 
 .contact-box form input,
@@ -181,6 +182,7 @@
 @media screen and (max-width: 767px) {
     .contact {
         height: auto;
+        overflow-x: hidden;
     }
 
     .contact-box {
