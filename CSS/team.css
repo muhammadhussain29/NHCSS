@@ -82,3 +82,21 @@
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+
+@media screen and (max-width: 600px) {
+    .square {
+        width: 230px;
+        height: 230px;
+        margin: 0px;
+    }
+    .square .heading-1{
+        font-size: 1.5rem;
+    }
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        grid-gap: 10px;
+    }
+    .grid .heading-2{
+        font-size: 1rem;
+    }
+}
