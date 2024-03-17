@@ -89,6 +89,9 @@
         height: 230px;
         margin: 0px;
     }
+    .contentbox .imgbox{
+        width: calc(100% / 2);
+    }
     .square .heading-1{
         font-size: 1.5rem;
     }

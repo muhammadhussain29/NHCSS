@@ -84,38 +84,42 @@
 /* Gallery Section CSS End ------------------------------------------------------------------------------------------- */
 
 /* Team Section CSS Start -------------------------------------------------------------------------------------------- */
-.section-team .header-section {
+.team .header-section {
     margin-bottom: 50px;
 }
 
-.section-team .single-person {
+.team .single-person {
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.section-team .single-person .person-image {
+.team .single-person .person-image {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border-radius: 50%;
     transition: 0.5s;
 }
 
-.section-team .single-person:hover .person-image {
+.team .single-person:hover .person-image {
     transform: scale(1.1);
 }
 
-.section-team .single-person .person-image img {
-    width: 100%;
+.team .single-person .person-image img {
+    width: 200px;
     border-radius: 50%;
 }
 
-.section-team .single-person .person-info .full-name {
+.team .single-person .person-info .full-name {
     color: var(--col-logo);
     font-size: 1.5rem;
     font-weight: bold;
     transition: 0.5s;
 }
 
-.section-team .single-person .person-info .speciality {
+.team .single-person .person-info .speciality {
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: bold;
@@ -123,9 +127,15 @@
     transition: 0.5s;
 }
 
-.section-team .single-person:hover .full-name,
-.section-team .single-person:hover .speciality {
+.team .single-person:hover .full-name,
+.team .single-person:hover .speciality {
     transform: scale(1.25);
+}
+
+@media screen and (max-width: 1000px) {
+    .team .single-person .person-image img {
+        width: 150px;
+    }
 }
 
 /* Team Section CSS End ---------------------------------------------------------------------------------------------- */
