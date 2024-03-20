@@ -1,202 +1,104 @@
 // Data for Images
 let images = [
     {
-        "caption": "image",
-        "link": "imgs/img-5.jpg",
+        "caption": "Ration Drive",
+        "link": "gallery/img-1.webp",
         "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-6.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-7.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-8.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-1.jpg",
+    },{
+        "caption": "Ration Drive",
+        "link": "gallery/img-2.webp",
         "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-2.jpg",
+    },{
+        "caption": "Ration Drive",
+        "link": "gallery/img-3.webp",
         "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-3.jpg",
+    },{
+        "caption": "Ration Drive",
+        "link": "gallery/img-4.webp",
         "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-4.jpg",
+    },{
+        "caption": "Ration Drive",
+        "link": "gallery/img-5.webp",
         "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-6.jpg",
+    },{
+        "caption": "Workshop on Graphics Design",
+        "link": "gallery/img-6.webp",
         "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-4.jpg",
+    },{
+        "caption": "Civil Aviation Visit",
+        "link": "gallery/img-7.webp",
         "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-2.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-7.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-6.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-1.jpg",
+    },{
+        "caption": "Civil Aviation Visit",
+        "link": "gallery/img-8.webp",
         "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-2.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-8.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-5.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-6.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-7.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-8.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-1.jpg",
+    },{
+        "caption": "Civil Aviation Visit",
+        "link": "gallery/img-9.webp",
         "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-2.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-3.jpg",
+    },{
+        "caption": "Civil Aviation Visit",
+        "link": "gallery/img-10.webp",
         "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-4.jpg",
+    },{
+        "caption": "Civil Aviation Visit",
+        "link": "gallery/img-11.webp",
+        "orientation": "square"
+    },{
+        "caption": "Civil Aviation Visit",
+        "link": "gallery/img-12.webp",
         "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-6.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-4.jpg",
-        "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-2.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-7.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-6.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-1.jpg",
-        "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-2.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-8.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-5.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-6.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-7.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-8.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-1.jpg",
-        "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-2.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-3.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-4.jpg",
-        "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-6.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-4.jpg",
-        "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-2.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-7.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-6.jpg",
-        "orientation": "square"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-1.jpg",
-        "orientation": "wide"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-2.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-8.jpg",
-        "orientation": "tall"
-    }, {
-        "caption": "image",
-        "link": "imgs/img-5.jpg",
+    },{
+        "caption": "Civil Aviation Visit",
+        "link": "gallery/img-13.webp",
         "orientation": "square"
     }
+
+    // {
+    //     "caption": "image",
+    //     "link": "imgs/img-5.jpg",
+    //     "orientation": "square"
+    // }, {
+    //     "caption": "image",
+    //     "link": "imgs/img-6.jpg",
+    //     "orientation": "square"
+    // }, {
+    //     "caption": "image",
+    //     "link": "imgs/img-7.jpg",
+    //     "orientation": "tall"
+    // }, {
+    //     "caption": "image",
+    //     "link": "imgs/img-8.jpg",
+    //     "orientation": "tall"
+    // }, {
+    //     "caption": "image",
+    //     "link": "imgs/img-1.jpg",
+    //     "orientation": "wide"
+    // }, {
+    //     "caption": "image",
+    //     "link": "imgs/img-2.jpg",
+    //     "orientation": "tall"
+    // }, {
+    //     "caption": "image",
+    //     "link": "imgs/img-3.jpg",
+    //     "orientation": "square"
+    // }, {
+    //     "caption": "image",
+    //     "link": "imgs/img-4.jpg",
+    //     "orientation": "wide"
+    // }, {
+    //     "caption": "image",
+    //     "link": "imgs/img-6.jpg",
+    //     "orientation": "square"
+    // }, {
+    //     "caption": "image",
+    //     "link": "imgs/img-4.jpg",
+    //     "orientation": "wide"
+    // }, {
+    //     "caption": "image",
+    //     "link": "imgs/img-2.jpg",
+    //     "orientation": "tall"
+    // }
 ]
 
 
