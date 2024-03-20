@@ -19,7 +19,7 @@ let images = [
     },{
         "caption": "Ration Drive",
         "link": "gallery/img-5.webp",
-        "orientation": "wide"
+        "orientation": "square"
     },{
         "caption": "Workshop on Graphics Design",
         "link": "gallery/img-6.webp",
@@ -31,11 +31,11 @@ let images = [
     },{
         "caption": "Civil Aviation Visit",
         "link": "gallery/img-8.webp",
-        "orientation": "wide"
+        "orientation": "square"
     },{
         "caption": "Civil Aviation Visit",
         "link": "gallery/img-9.webp",
-        "orientation": "wide"
+        "orientation": "square"
     },{
         "caption": "Civil Aviation Visit",
         "link": "gallery/img-10.webp",
@@ -52,53 +52,79 @@ let images = [
         "caption": "Civil Aviation Visit",
         "link": "gallery/img-13.webp",
         "orientation": "square"
+    },{
+        "caption": "Workshop on Web-Development",
+        "link": "gallery/img-14.webp",
+        "orientation": "square"
+    },{
+        "caption": "Workshop on Web-Development",
+        "link": "gallery/img-15.webp",
+        "orientation": "square"
+    },{
+        "caption": "Workshop on Web-Development",
+        "link": "gallery/img-16.webp",
+        "orientation": "square"
+    },{
+        "caption": "Session on time managment",
+        "link": "gallery/img-17.webp",
+        "orientation": "square"
+    },{
+        "caption": "Session on time managment",
+        "link": "gallery/img-18.webp",
+        "orientation": "tall"
+    },{
+        "caption": "Session on time managment",
+        "link": "gallery/img-19.webp",
+        "orientation": "square"
+    },{
+        "caption": "Session on time managment",
+        "link": "gallery/img-20.webp",
+        "orientation": "square"
+    },{
+        "caption": "Session on IOT",
+        "link": "gallery/img-21.webp",
+        "orientation": "square"
+    },{
+        "caption": "Session on IOT",
+        "link": "gallery/img-22.webp",
+        "orientation": "square"
+    },{
+        "caption": "Session on IOT",
+        "link": "gallery/img-23.webp",
+        "orientation": "wide"
+    },{
+        "caption": "Session on IOT",
+        "link": "gallery/img-24.webp",
+        "orientation": "tall"
+    },{
+        "caption": "Session on IOT",
+        "link": "gallery/img-25.webp",
+        "orientation": "square"
+    },{
+        "caption": "Social Service Work",
+        "link": "gallery/img-26.webp",
+        "orientation": "square"
+    },{
+        "caption": "Social Service Work",
+        "link": "gallery/img-27.webp",
+        "orientation": "square"
+    },{
+        "caption": "Social Service Work",
+        "link": "gallery/img-28.webp",
+        "orientation": "square"
+    },{
+        "caption": "Social Service Work",
+        "link": "gallery/img-29.webp",
+        "orientation": "tall"
+    },{
+        "caption": "Social Service Work",
+        "link": "gallery/img-30.webp",
+        "orientation": "wide"
+    },{
+        "caption": "Social Service Work",
+        "link": "gallery/img-31.webp",
+        "orientation": "square"
     }
-
-    // {
-    //     "caption": "image",
-    //     "link": "imgs/img-5.jpg",
-    //     "orientation": "square"
-    // }, {
-    //     "caption": "image",
-    //     "link": "imgs/img-6.jpg",
-    //     "orientation": "square"
-    // }, {
-    //     "caption": "image",
-    //     "link": "imgs/img-7.jpg",
-    //     "orientation": "tall"
-    // }, {
-    //     "caption": "image",
-    //     "link": "imgs/img-8.jpg",
-    //     "orientation": "tall"
-    // }, {
-    //     "caption": "image",
-    //     "link": "imgs/img-1.jpg",
-    //     "orientation": "wide"
-    // }, {
-    //     "caption": "image",
-    //     "link": "imgs/img-2.jpg",
-    //     "orientation": "tall"
-    // }, {
-    //     "caption": "image",
-    //     "link": "imgs/img-3.jpg",
-    //     "orientation": "square"
-    // }, {
-    //     "caption": "image",
-    //     "link": "imgs/img-4.jpg",
-    //     "orientation": "wide"
-    // }, {
-    //     "caption": "image",
-    //     "link": "imgs/img-6.jpg",
-    //     "orientation": "square"
-    // }, {
-    //     "caption": "image",
-    //     "link": "imgs/img-4.jpg",
-    //     "orientation": "wide"
-    // }, {
-    //     "caption": "image",
-    //     "link": "imgs/img-2.jpg",
-    //     "orientation": "tall"
-    // }
 ]
 
 
