@@ -99,7 +99,7 @@ let images = [
     },{
         "caption": "Session on IOT",
         "link": "gallery/img-25.webp",
-        "orientation": "square"
+        "orientation": "tall"
     },{
         "caption": "Social Service Work",
         "link": "gallery/img-26.webp",
@@ -115,7 +115,7 @@ let images = [
     },{
         "caption": "Social Service Work",
         "link": "gallery/img-29.webp",
-        "orientation": "tall"
+        "orientation": "square"
     },{
         "caption": "Social Service Work",
         "link": "gallery/img-30.webp",

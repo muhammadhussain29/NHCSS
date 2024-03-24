@@ -66,10 +66,10 @@
 
 /* Css of all Mambers */
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-gap: 40px;
-    justify-content: center;
+}
+.member{
+    width: 100px;
 }
 
 .member .imgbox {
@@ -96,8 +96,10 @@
         font-size: 1.5rem;
     }
     .grid {
-        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
         grid-gap: 10px;
+    }
+    .member{
+        width: 80px;
     }
     .grid .heading-2{
         font-size: 1rem;

@@ -1,57 +1,45 @@
 // Example data for recent events
 let eventData = [
   {
-    heading: 'Event 1',
-    speaker: 'Speaker 1',
-    date: '21-June-2023',
-    time: '11:00 PM',
-    location: 'Numl Auditorium',
-    bgImg: "url('./imgs/poster.jpg')"
+    heading: 'Ration Drive',
+    speaker: 'donate now',
+    bgImg: "poster/poster-1.webp",
+    txt: "Embrace the spirit of giving this Ramadan! Join our Ramadan Ration Drive a chance to make a meaningful impact."
   },
   {
-    heading: 'Event 2',
-    speaker: 'Speaker 2',
-    date: '25-June-2023',
-    time: '2:00 PM',
-    location: 'Conference Hall',
-    bgImg: "url('./imgs/poster.jpg')"
+    heading: 'computer Graphics',
+    speaker: 'Aziz Sethar',
+    bgImg: "poster/poster-2.webp",
+    txt: "The Department of Computer Science at NUML University Hyderabad organized an insightful session with Aziz Sethar held on February 28, 2024! Grateful for the engaging exploration of computer graphics."
   },
   {
-    heading: 'Event 3',
-    speaker: 'Speaker 3',
-    date: '25-June-2023',
-    time: '2:00 PM',
-    location: 'Conference Hall',
-    bgImg: "url('./imgs/poster.jpg')"
+    heading: 'CAA seminar',
+    speaker: 'Impact of 5G, Artificial Intelligence, & Cyber Security',
+    bgImg: "poster/poster-3.webp",
+    txt: "Civil Aviation Training Institute, Hyderabad presents a one-day seminar on the Impact of 5G, Artificial Intelligence, & Cyber Security in Aviation on Feb 15, 2024, "
   },
   {
-    heading: 'Event 4',
-    speaker: 'Speaker 4',
-    date: '25-June-2023',
-    time: '2:00 PM',
-    location: 'Conference Hall',
-    bgImg: "url('./imgs/poster.jpg')"
+    heading: 'freelance matrix',
+    speaker: 'pradeep k',
+    bgImg: "poster/poster-4.webp",
+    txt: "NHCSS organized a session on Freelance Matrix at Hyderabad Campus. The session was conducted by Mr. Pardeep Kumar"
   },
   {
-    heading: 'Event 5',
-    speaker: 'Speaker 5',
-    date: '25-June-2023',
-    time: '2:00 PM',
-    location: 'Conference Hall',
-    bgImg: "url('./imgs/poster.jpg')"
+    heading: 'time and focus',
+    speaker: 'muhammad ali',
+    bgImg: "poster/poster-5.webp",
+    txt: "NHCSS organized an event on Time and Focus Management with the collaboration of Youth Club. Muhammad Ali was the guest speaker, he presented his ideology regarding the said topic in the light of Islam."
   },
   {
-    heading: 'Event 6',
-    speaker: 'Speaker 6',
-    date: '25-June-2023',
-    time: '2:00 PM',
-    location: 'Conference Hall',
-    bgImg: "url('./imgs/poster.jpg')"
+    heading: 'IOT Workshop',
+    speaker: 'alee r',
+    bgImg: "poster/poster-6.webp",
+    txt: "Explore the future of Smart Cities and IoT with Alee R. at NUML University, Hyderabad. "
   }
 ];
 
 // Set the date to countdown to
-const countdownDate = new Date("2024-03-15T00:00:00Z").getTime();
+const countdownDate = new Date("2024-03-30T00:00:00Z").getTime();
 
 // Update the countdown every second
 const countdown = setInterval(function () {
@@ -89,66 +77,27 @@ function formatTime(time) {
   return time < 10 ? `0${time}` : time;
 }
 
-
-// event cards list
-// Function to create event card with given data
-function createEventCard(bgImg, heading, speaker, date, time, location) {
-  let card = document.createElement('div');
-  card.classList.add('event-card', 'rounded', 'm-2', 'd-inline-block');
-  card.setAttribute('data-aos', 'fade');
-  card.setAttribute('data-aos-duration', '1500');
-  card.setAttribute('data-aos-easing', 'ease');
-  card.style.backgroundImage = bgImg;
-
-  let detail = document.createElement('div');
-  detail.classList.add('detail', 'p-2');
-
-  let headingElement = document.createElement('h3');
-  headingElement.classList.add('px-1', 'col-white', 'heading-2');
-  headingElement.textContent = heading;
-
-  let speakerElement = document.createElement('p');
-  speakerElement.classList.add('px-1', 'col-lightgrey', 'txt-1');
-  speakerElement.textContent = speaker;
-
-  let ul = document.createElement('ul');
-  let dateLi = createListItem('col-lightgrey', 'txt-1', date);
-  let timeLi = createListItem('col-lightgrey', 'txt-1', time);
-  let locationLi = createListItem('col-lightgrey', 'txt-1', location);
-
-  ul.appendChild(dateLi);
-  ul.appendChild(timeLi);
-  ul.appendChild(locationLi);
-
-
-  let viewImagesBtn = document.createElement('button');
-  viewImagesBtn.classList.add('btn', 'mx-3');
-  let viewImagesBtnLink = document.createElement('a');
-  viewImagesBtnLink.setAttribute('href', 'gallery.html')
-  viewImagesBtnLink.textContent = 'View Images';
-  viewImagesBtn.appendChild(viewImagesBtnLink);
-
-  detail.appendChild(headingElement);
-  detail.appendChild(speakerElement);
-  detail.appendChild(ul);
-  detail.appendChild(viewImagesBtn);
-
-  card.appendChild(detail);
-
-  return card;
+// Event Card Generated Dynamicaly
+let cards = document.getElementsByClassName('cards')[0];
+function eventCard() {
+  return `
+  <div class="card p-4">
+            <div class="img-holder">
+                <img src="${eventData[index].bgImg}" alt="">
+            </div>
+            <div class="card-content">
+                <h2 class="heading-2 col-blue">${eventData[index].heading}</h2>
+                <h3 class="txt-1 text-capitalize">${eventData[index].speaker}</h3>
+                <p class="txt-2">${eventData[index].txt}</p>
+                <button class="btn">
+                    <a href="gallery.html">Gallery</a>
+                </button>
+            </div>
+        </div>
+  `;
 }
-
-// Helper function to create list items
-function createListItem(colClass, txtClass, text) {
-  let li = document.createElement('li');
-  li.classList.add(colClass, txtClass);
-  li.textContent = text;
-  return li;
+let index = 0;
+while (index < eventData.length) {
+  cards.innerHTML += eventCard();
+  index += 1;
 }
-
-// Create and append event cards
-let eventCardsContainer = document.getElementById('eventCardsContainer');
-eventData.forEach(event => {
-  let card = createEventCard(event.bgImg, event.heading, event.speaker, event.date, event.time, event.location);
-  eventCardsContainer.appendChild(card);
-});

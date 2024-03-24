@@ -62,40 +62,65 @@
     }
 }
 
-/* recent events */
-.event-card {
-    background-color: rgba(0, 0, 0, 0.3);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
-    background-size: cover;
-    height: 400px;
-    width: 280px;
-    overflow: hidden;
-    text-align: left !important;
+/* recent events Card */
+.cards {
+    gap: 30px;
 }
 
-.detail {
-    background-color: rgba(0, 0, 0, 0.7);
+.card {
+    max-width: 270px;
+    box-shadow: 0px 0px 8px rgb(94, 94, 94);
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 100px;
+}
+
+.card .img-holder {
     width: 100%;
-    height: 100px;
-    transition: all 1s;
-    margin-top: calc(400px - 100px);
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
 }
 
-.detail ul,
-.detail .btn {
-    visibility: hidden;
+.card .img-holder img {
+    border-radius: 8px;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.card-content {
+    height: 90px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.card h2,
+.card h3 {
+    margin: 0px;
+}
+
+.card p,
+.card button {
+    margin: 3px 0px;
     opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    transition-delay: 0.1s;
 }
 
-.event-card:hover .detail {
-    height: 260px;
-    margin-top: calc(400px - 230px);
+/* on hovering card */
+.card:hover .img-holder {
+    transform: scale(0.9);
+    margin-top: -140px;
 }
 
-.event-card:hover .detail ul,
-.event-card:hover .detail .btn {
-    visibility: visible;
+.card:hover .card-content {
+    height: 230px;
+    overflow: visible;
+}
+
+.card:hover p,
+.card:hover button {
     opacity: 1;
 }

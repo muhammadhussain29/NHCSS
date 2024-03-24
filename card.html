@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/general.css">
+    <style>
+
+/* .event-card {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 400px;
+    width: 280px;
+    overflow: hidden;
+    text-align: left !important;
+}
+
+.detail {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100px;
+    transition: all 1s;
+    margin-top: calc(400px - 100px);
+}
+
+.detail ul,
+.detail .btn {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.event-card:hover .detail {
+    height: 260px;
+    margin-top: calc(400px - 230px);
+}
+
+.event-card:hover .detail ul,
+.event-card:hover .detail .btn {
+    visibility: visible;
+    opacity: 1;
+} */
+
+
+        body{
+            background: #000;
+        }
+        .cards{
+            display: grid;
+            gap: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+            align-items: center;
+        }
+        .card{
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            transition: all 0.3s ease-in-out;
+            margin-top: 100px;
+        }
+        .card .img-holder{
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            transition: all 0.3s ease-in-out;
+            overflow: hidden;
+        }
+        .card .img-holder img{
+            border-radius: 8px;
+            width: 100%;
+            aspect-ratio: 1/1;
+        }
+        .card-content{
+            height: 75px;
+            overflow: hidden;
+            transition: all 0.3s ease-in-out;
+        }
+        .card h2 , .card h3{
+            margin: 0px;
+        }
+        .card p , .card button{
+            margin: 2px 0px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            transition-delay: 0.1s;
+        }
+        /* on hovering card */
+        .card:hover .img-holder{
+            transform: scale(0.9);
+            margin-top: -120px;
+        }
+        .card:hover .card-content{
+            height: 200px;
+            overflow: visible;
+        }
+        .card:hover p , .card:hover button{
+            opacity: 1;
+        }
+
+</style>
+</head>
+<body>
+    
+    <!-- <div class="cards">
+        <div class="card">
+            <div class="img-holder">
+                <img src="imgs/poster.jpg" alt="">
+            </div>
+            <div class="card-content">
+                <h2 class="heading-1">card title</h2>
+                <h3 class="heading-2">card title</h3>
+                <p class="txt-1"></p>
+                <ul class="txt-1">
+                    <li>venue</li>
+                    <li>date</li>
+                    <li>time</li>
+                </ul>
+                <button class="btn">
+                    <a href="">Gallery</a>
+                </button>
+            </div>
+        </div>
+    </div> -->
+
+
+
+<script>
+    // event cards list
+// Function to create event card with given data
+// function createEventCard(bgImg, heading, speaker, date, time, location) {
+//   let card = document.createElement('div');
+//   card.classList.add('event-card', 'rounded', 'm-2', 'd-inline-block');
+//   card.setAttribute('data-aos', 'fade');
+//   card.setAttribute('data-aos-duration', '1500');
+//   card.setAttribute('data-aos-easing', 'ease');
+//   card.style.backgroundImage = bgImg;
+
+//   let detail = document.createElement('div');
+//   detail.classList.add('detail', 'p-2');
+
+//   let headingElement = document.createElement('h3');
+//   headingElement.classList.add('px-1', 'col-white', 'heading-2');
+//   headingElement.textContent = heading;
+
+//   let speakerElement = document.createElement('p');
+//   speakerElement.classList.add('px-1', 'col-lightgrey', 'txt-1');
+//   speakerElement.textContent = speaker;
+
+//   let ul = document.createElement('ul');
+//   let dateLi = createListItem('col-lightgrey', 'txt-1', date);
+//   let timeLi = createListItem('col-lightgrey', 'txt-1', time);
+//   let locationLi = createListItem('col-lightgrey', 'txt-1', location);
+
+//   ul.appendChild(dateLi);
+//   ul.appendChild(timeLi);
+//   ul.appendChild(locationLi);
+
+
+//   let viewImagesBtn = document.createElement('button');
+//   viewImagesBtn.classList.add('btn', 'mx-3');
+//   let viewImagesBtnLink = document.createElement('a');
+//   viewImagesBtnLink.setAttribute('href', 'gallery.html')
+//   viewImagesBtnLink.textContent = 'View Images';
+//   viewImagesBtn.appendChild(viewImagesBtnLink);
+
+//   detail.appendChild(headingElement);
+//   detail.appendChild(speakerElement);
+//   detail.appendChild(ul);
+//   detail.appendChild(viewImagesBtn);
+
+//   card.appendChild(detail);
+
+//   return card;
+// }
+
+// Helper function to create list items
+// function createListItem(colClass, txtClass, text) {
+//   let li = document.createElement('li');
+//   li.classList.add(colClass, txtClass);
+//   li.textContent = text;
+//   return li;
+// }
+
+// Create and append event cards
+// let eventCardsContainer = document.getElementById('eventCardsContainer');
+// eventData.forEach(event => {
+//   let card = createEventCard(event.bgImg, event.heading, event.speaker, event.date, event.time, event.location);
+//   eventCardsContainer.appendChild(card);
+// });
+
+
+</script>
+
+</body>
+</html>
