@@ -39,7 +39,7 @@ let eventData = [
 ];
 
 // Set the date to countdown to
-const countdownDate = new Date("2024-03-30T00:00:00Z").getTime();
+const countdownDate = new Date("2024-03-20T00:00:00Z").getTime();
 
 // Update the countdown every second
 const countdown = setInterval(function () {
